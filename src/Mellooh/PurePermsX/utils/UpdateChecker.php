@@ -8,7 +8,7 @@ use quark\plugin\Plugin;
 
 final class UpdateChecker{
 
-    public const REMOTE_PLUGIN_YML = "https://raw.githubusercontent.com/Akari-my/PurePermsX/main/plugin.yml";
+    public const REMOTE_PLUGIN_YML = "https://raw.githubusercontent.com/Akari-my/PPX-Quark/main/plugin.yml";
 
     public static function check(Plugin $plugin) : void{
         $localVersion = (string) $plugin->getDescription()->getVersion();
